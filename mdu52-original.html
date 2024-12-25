@@ -38,7 +38,7 @@
       }
 
       async function fetchDataFromGoogleSheet(id) {
-        const url = `https://script.google.com/macros/s/AKfycbz6uJ7RtuMZHul9iifvEzFI6Se6bGNmx0K4eSE0R3aF7LaTKvenLJ9Y8yZSyfqCXm4-pA/exec?id=${id}`;
+        const url = `https://script.google.com/macros/s/AKfycbxEeOUM7hoJd9RtnfK2K5EbIfwPsDs0v1-WmdjZURzEJl6CuwVQaSYmRWPdHnd1_-h_9A/exec?id=${id}`;
         const response = await fetch(url);
         const data = await response.json();
         return data;
